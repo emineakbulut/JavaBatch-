@@ -20,15 +20,17 @@ public class RecapWithDoWhile {
 		
 		
 		do {
+			
 			money=scan.nextInt();
+			  
 			if(money>price) {
 				System.out.println("Less money please");
-				//money=scan.nextInt();
+				
 			}else if(money<price){
 				System.out.println("More money please");
-				//money=scan.nextInt();
+				
 			}
-			//money=scan.nextInt();
+			
 		}while(money!=price);
 		System.out.println("Enjoy your water");
 

@@ -12,6 +12,7 @@ public class ScannerAndLoop {
 		
 		scan=new Scanner(System.in);
 		
+		
 		int num=1;
 		
 		while(num<=5) {
