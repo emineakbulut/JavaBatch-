@@ -11,10 +11,10 @@ public class CalcofevenOddNum {
 		int sumOdd=0;
 		for (int i = 1; i < 51; i++) {
 		    if (i%2 == 0) {
-		        sumEven = i + sumEven;
+		        sumEven += i;
 		    }
 		    if (i%2 == 1) {
-		        sumOdd = i + sumOdd;
+		        sumOdd += i ;
 		    }
 		}
 		System.out.println("The sum of even number from 50 to 1 is " + sumEven);

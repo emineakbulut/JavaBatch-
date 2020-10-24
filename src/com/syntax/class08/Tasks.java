@@ -39,7 +39,26 @@ public class Tasks {
 		}
 		System.out.println(sum);
 		
+		System.out.println("--------------What will be the output----------");
+		
+		int result=0;
+		
+		for (int i=10; i>=1; i--) {
 			
+			result*=i;
+		}
+		System.out.println(result);
+		
+		System.out.println("--------------What will be the output----------");
+		
+        int result1=1;
+		
+		for (int i=10; i>=1; i-=2) {
+			
+			result1*=i;
+			System.out.println(result);
+		}
+		
 	}
 
 }

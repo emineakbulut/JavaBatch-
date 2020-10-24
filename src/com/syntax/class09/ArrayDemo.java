@@ -23,6 +23,15 @@ public class ArrayDemo {
 		//to acces an element from an array
 		System.out.println("Accesing 3rd element "+num[2]);
 		
+		System.out.println(num[1]+num[4]);
+		
+		//I would like to change 50 to 100;
+		num[4]=100;
+		
+		System.out.println("Value of 5th element after change "+num[4]);
+		
+		String[] array=new String[4];  
+		
 
 	}
 
