@@ -13,10 +13,10 @@ public class Arrays {
 		
 		String[] name=new String[5];
 		name[0]="Julia";
-		name[0]="Julia";
-		name[0]="Julia"
-		name[0]="Julia"
-		name[0]="Julia"		
+		name[1]="Jon";
+		name[2]="David";
+		name[3]="Aladin";
+		name[4]="Emmine";		
 				
 		
 
