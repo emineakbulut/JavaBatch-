@@ -4,7 +4,7 @@ public class BreakKeyword {
 
 	public static void main(String[] args) {
 		
-		//break
+		//break In case of inner loop, it breaks only inner loop.
 		
 		for (int i=1; i<4; i++) {
 			System.out.println("Hello");

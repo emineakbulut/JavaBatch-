@@ -1,9 +1,24 @@
 package com.syntax.class06;
 
+import java.util.Scanner;
+
 public class SwitchCaseIntro {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		/*A switch works with the byte, short, char, int and String
+		 * 
+		 *The break statement is used inside the switch to terminate a statement sequence.
+		 *  
+		 * The default statement is optional,
+		 * and can appear anywhere inside the switch block.  
+		 * 
+		 * The default section handles all values that
+		 * are not explicitly handled by one of the case sections.
+		 * 
+		 * The switch can only check for equality
+		 * Logical operators cannot be used with switch statement. 
+		 */
+		
 		Scanner scan = new Scanner(System.in);
         System.out.println("Please enter a day number");
         int day = scan.nextInt();

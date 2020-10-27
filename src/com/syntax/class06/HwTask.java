@@ -1,4 +1,4 @@
-System.outpackage com.syntax.class06;
+package com.syntax.class06;
 
 import java.util.Scanner;
 
@@ -41,8 +41,10 @@ public class HwTask {
 		Scanner scan=new Scanner(System.in);
 		System.out.println("Please enter first number");
 		double num1=scan.nextDouble();
+		
 		System.out.println("Use operators");
 		char operator=scan.next().charAt(0);
+		
 		System.out.println("Please enter second number");
 		double num2=scan.nextDouble();
 		double result=0;

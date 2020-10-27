@@ -4,6 +4,20 @@ public class TwoDimensionalArray {
 
 	public static void main(String[] args) {
 		
+		/*
+		 * In Java, multidimensional arrays are actually arrays of arrays.
+		 * It can have multiple rows and multiple columns
+		 * (also known as matrix form)unlike single dimensional array,
+		 * which can have only one full row or one full column.
+		 * 
+		 * Syntax:
+		 * Data_Type[][] Array_Name = new int[Row_Size][Column_Size];
+		 * 
+		 * To access all the items in a multidimensional array the technique is
+		 * to use one loop inside of another.
+		 * 
+		 */
+		
 		// new char [how many rows] [how many colums]
 		char[] [] _array=new char [3] [4];
 		

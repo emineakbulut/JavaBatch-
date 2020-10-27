@@ -11,6 +11,7 @@ public class ArrayFromScanner {
 		Scanner scan;
 		String[] names;
 		int size;
+		
 		scan=new Scanner(System.in);
 		System.out.println("How many names would you like to store?");
 		size=scan.nextInt();

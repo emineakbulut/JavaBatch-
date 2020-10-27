@@ -12,7 +12,11 @@ public class TaskCars {
 		}
 		System.out.println();
 		
+		System.out.println("------Enhanced Loop-------- ");
 		
+		for (String car:cars) {
+			System.out.print(car+" ");
+		}
 		
 	}
 

@@ -30,8 +30,8 @@ public class Tasks {
 		String[] names= {"Zeynep","Zehra","Emine"};
 		System.out.println(names[2]);
 		
-		String[] name=new String[2];
-		name[0]="Zeynep";
+		String[] name=new String[3];
+    	name[0]="Zeynep";
 		name[1]="Zehra";
 		name[2]="Emine";
 		

@@ -16,13 +16,13 @@ public class ArraysAnotherWay {
 		int size=names.length;
 		System.out.println("Size of my array is "+size);
 		
-		System.out.println(names[names.length-2]);
+		System.out.println(names[names.length-2]);//Danilo
 		System.out.println("--------------------------");
 		
 		int a=2;
-		System.out.println(names[a]);
+		System.out.println(names[a]);//Jack
 		a+=2;
-		System.out.println(names[a]);
+		System.out.println(names[a]);//Bryan
 		System.out.println("--------------------------");
 		
 		for(int i=0; i<names.length; i++) {
@@ -31,10 +31,16 @@ public class ArraysAnotherWay {
 		}
 		System.out.println("--------------------------");
 		
-//        for(int i=0; i<names.length-1; i++) { we will get an exception because 
+		for(int i=0; i<names.length-1; i++) {
+			
+			System.out.println(names[i]);
+			
+		}
+		
+//        for(int i=0; i<names.length; i++) { we will get an exception because 
 //		   length will be 6 and highest index we have 5
 //			
-//			System.out.println(names[i]);
+//			
 //		}
 	}
 }

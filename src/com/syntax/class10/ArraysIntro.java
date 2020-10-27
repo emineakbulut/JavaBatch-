@@ -35,6 +35,16 @@ public class ArraysIntro {
 		
 		System.out.println(liquid[0]);
 		
+		/*
+		 * To print all values from an array we can use for loop using following syntax
+		 * 
+		 * String[] names= {"Anna", "John", "Sasha", "Alex"};
+		 * for (String name: names){
+		 * System.out.println(name);
+		 * }
+		 */
+		
+		
 
 	}
 

@@ -3,7 +3,17 @@ package com.syntax.class07;
 public class WhileLoopIntro {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		/*
+		 * The important point to note when using while loop is that
+		 * we need to use increment or decrement statement inside while loop
+		 * so that the loop variable gets changed on each iteration,
+		 * and at some point condition returns false.
+		 * This way we can end the execution of while loop
+		 * otherwise the loop would execute indefinitely.
+		 * 
+		 * do while loop is similar to while loop with only difference that
+		 * it checks for condition after executing the statements
+		 */
 
 
 		//only odd numbers from 100 to 1

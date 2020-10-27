@@ -4,6 +4,8 @@ public class ContinueKeyword {
 	
 	public static void main(String[] args) {
 		
+		
+		//continue keyword It causes the loop to immediately jump to the next iteration of the loop.
 		//print numbers 1-5 except number 3
 		
 		for (int i = 1; i <= 5; i++) {

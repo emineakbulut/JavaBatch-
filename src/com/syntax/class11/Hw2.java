@@ -22,18 +22,20 @@ public class Hw2 {
 		
 		num = new double[size];
 		
-		//store values into array
+		//We store values into array
 		for (int i = 0; i < size; i++) {
 		System.out.println("Please enter double numbers");
 		num[i] = scan.nextDouble();
 		}
 		
-		//loop through created 
-//		for (int i = 0; i < num.length; i++) {
-//			sum = sum + num[i];
-//		}
+		//loop through created  array
 		
-		for(double number:num) {
+//		  for (int i = 0; i < num.length; i++) {
+//		  sum = sum + num[i];   }
+//	      System.out.println(sum);
+
+		
+		for(double number:num) {  //Enhanced for loop
 			sum+=number;
 		}
 		System.out.println(sum);
