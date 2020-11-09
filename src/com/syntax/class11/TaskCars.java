@@ -14,7 +14,7 @@ public class TaskCars {
 				
 				
 		};
-		for (int i=0; i<cars.length; i++) {
+		for (int i=0; i<cars.length; i++) {//4 
 			
 			for(int j=0; j<cars[i].length; j++) {
 				

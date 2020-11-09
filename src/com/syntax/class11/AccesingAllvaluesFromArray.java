@@ -29,19 +29,32 @@ public class AccesingAllvaluesFromArray {
 		_array[2][2] = 'B';
 		_array[2][3] = 'R';
 
-		System.out.println(_array.length);
+		System.out.println(_array.length);//one row for each array,array.length gives how many rows you have
 		
-		for (int row=0; row<_array.length; row++ ) {//loops through rows
+		for (int row=0; row<_array.length; row++ ) {//loops through rows, iterates rows , outer loop
 			
-			for (int col=0; col<_array[row].length; col++) {
+			for (int col=0; col<_array[row].length; col++) {//loops truogh coloums
 				
-				System.out.print(_array[row][col]+" ");
+				System.out.print(_array[row][col]+" ");//row first
 			}
 			System.out.println();
 		}
 		System.out.println("----------------------");
 		
 		
+		int[][] array={{10,20,20},
+			       {200,300,400},
+			       {1,2,3}
+			       };
+		
+		for(int i=0; i<array.length; i++) {
+			
+			for(int j=0; j<array[i].length; j++) {
+				
+				System.out.print(array[i][j]+" ");
+			}
+			System.out.println();
+		}
 	}
 
 }

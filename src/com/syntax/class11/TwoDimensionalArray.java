@@ -57,6 +57,7 @@ public class TwoDimensionalArray {
 		System.out.println("--------------------------");
 		
 		System.out.println("The size of array of integers = "+array.length);
+		//inside of my big array i have 3 small arrays
 	}
 
 }

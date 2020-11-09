@@ -26,23 +26,23 @@ public class Hw3 {
 			}
 			
 			System.out.println("-----------------");
-			String capital;
-			for (String country:countries) {
-				
-				switch(country) {
-				
-				case"USA":
-					capital="DC";
-					break;
-				
-				case"Italy":
-					capital="Rome";
-					break;
-				default:
-					capital="I dont know";
-					}
-				System.out.println("Capital of the "+country+" is "+capital);
-			}
+//			String capital;
+//			for (String country:countries) {
+//				
+//				switch(country) {
+//				
+//				case"USA":
+//					capital="DC";
+//					break;
+//				
+//				case"Italy":
+//					capital="Rome";
+//					break;
+//				default:
+//					capital="I dont know";
+//					}
+//				System.out.println("Capital of the "+country+" is "+capital);
+//			}
 			
 			
 			
