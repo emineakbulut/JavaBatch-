@@ -1,0 +1,13 @@
+Maps:
+Is a data structure in java that stores the data in key value pairs.
+Is a good choice store and manipulate large amounts of data.
+Properties.
+The keys must be unique
+values can duplicate.
+How to declare:
+      HashMap<Key,Value> map=new HashMap<>();
+      key can be any object
+      value can be any object
+
+Always use Iterator to remove the elements from collections and maps
+we can call all the methods on the map except remove while inside the iterator.
