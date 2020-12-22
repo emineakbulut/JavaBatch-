@@ -1,0 +1,33 @@
+FileHandling In java
+Ways to manipulate the files like property files excel files txt files etc.
+Files helps us store our data permanently on the computer hard disc
+Files help us separate our data from our code so that everytime if we have to change
+the data we don't change our code. We don't want to change our code with our data
+because.
+1) it introduces bugs
+2)we do not want to change one line because whole process of building and
+deploying the code on different servers starts over
+1)Property files
+2) Excel files(xlsx)
+Property files:
+We use property files to store configuration data like Database URLS usernames password and
+other configuration it helps use separate important information from our code and
+avoid hardcoding
+Excel Files
+Every time we have duplicate data we should be using the excel files
+How to handle Excel files in java
+we can handle excel files using apache poi library.
+
+Create 10 rows with below columns
+FirstName LastName Age Salary Hobby
+fill these rows with random info
+rad these rows check if the salary is greater than 100k
+if yes store that row in new file
+what is an Exception in Java.
+Exception is an unwanted behaviour that can cause our programs to terminate abruptly.
+How we should handle these unwanted behaviours  we should use try and catch block to handle
+these issues
+why prefer try catch over If else condition
+1)we are 100% sure that if anything goes wrong our code will not terminate abruptly
+2) It will give us the complete information about the error
+3) these exception provide us standard error messages which are same across the industry

@@ -40,7 +40,7 @@ public class ArrayDemo {
 		num[3]=40;
 		num[4]=50;
 		//to acces an element from an array
-		System.out.println("Accesing 3rd element "+num[2]);//number of index
+		System.out.println("Accessing 3rd element "+num[2]);//number of index
 		
 		System.out.println(num[1]+num[4]);
 		

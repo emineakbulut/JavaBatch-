@@ -21,7 +21,7 @@ NOTE: please use different names for instance and local variables.
     }
     void printGradeAvarege(){
         double avg=(subj1+subj2+subj3)/3;
-        System.out.println("Avarege marks for "+name+" are "+avg);
+        System.out.println("Average marks for "+name+" are "+avg);
     }
 
     public static void main(String[] args) {

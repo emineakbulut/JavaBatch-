@@ -11,7 +11,7 @@ public class Employees {
     Employees(int ageValue, String nameValue, char characterValue) {
         System.out.println("I am not a useless constructor i am initializing you fields");
 
-        if (ageValue > 60| ageValue<18) {
+        if (ageValue > 60 || ageValue<18) {
             System.out.println("you should not be working please retire or wait to be 18 years old");
         } else {
             age = ageValue;

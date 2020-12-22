@@ -1,0 +1,23 @@
+3 ways to store the data using Java.
+1) variables(we can store only one value)
+2) Arrays( They can store multiple objects but they are fixed in size)
+3) Collection( Can store multiple objects and they are dynamic can grow and shrink the size at runtime)
+we can not use primitives with collections. Collections can be used with objects only.
+Wrapper Classes:
+Mechanism that allows primitive types to be used as a objects / non primitives
+Are classes from java guys that help us use collections with our primitive types as they are objects
+they also have many built-in methods to manipulate the data types for example converting a string to an Integer
+String number="10"
+int num=Integer.parseInt(number)
+Iterator is an interface that lets use iterate through any collection. It has three methods
+hasNext() --checks if there are any elements left in the collection
+next()  -- will return me the next element from the collection
+remove().  -- remove method it will remove the element from the collection.
+All of the collection classes they have a method iterator() using this method i can get an object
+of the iterator and then i can call the above three methods to iterate or to remove the elements
+Note:
+Iterators can be used only once. Once we have used the iterator we need a new once
+if we want to iterate the collection again.
+ArrayList:
+Are consecutive memory locations when it comes to read operations array list is the best
+When it comes to manipulate data in between or at the start Linklist is best choise

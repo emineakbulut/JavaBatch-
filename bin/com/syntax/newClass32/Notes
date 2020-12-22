@@ -1,0 +1,21 @@
+Collections:
+is a framework in java having many different interfaces and classes that help us dealing with
+different types of data.
+Collection is a group of objects represented as a single entity
+it is dynamic in nature can grow and shrink the size at runtime
+
+ArrayList is a class in the collection framework that can store the single objects
+1) Arrays can have duplicate objects
+2) Arrays keep the insertion order
+3) Best choice whenever we will be accessing the data/readonly
+
+LinkedList:
+1) Arrays can have duplicate objects
+2)Arrays keep the insertion order
+3) Best choice whenever we will be modifying the data
+
+Set:
+Set is a data structure that stores unique objects
+unordered collection of objects in which duplicate values cannot be stored
+Properties:
+1)Can't store duplicate elements

@@ -3,4 +3,37 @@ Access modifiers : are used to control the access to our class members like fiel
 private,protected(default),public
 
 private;
+protected ,default
+public
+Access modifiers are used to the control the access to our class members
+like fields and method
+private access modifier which is the most restricted it allows to access our
+class members like method and instance variables/fields/properties from
+the same class only
+compiler it converts your java code to the byte code which our JVM can understand
+JVM it takes byte and converts that code to machine that our computers can understands
+
+for example
+class PrivateClass{
+
+private int salary
+
+private transferSalaryToEmpBankACC(){
+//some code
+
+}
+
+}
+
+
+protected/Default
+Default is not a keyword it is just a behaviour which is assigned to our
+properties or methods if we do not specify any access modifier.
+And these field/properties/attributes or methods/behaviours are then only
+accessible with the same package.
+public:
+public is a keyword in java and it controls the access to our fields and methods
+if we use this access modifier all of the our methods and fields can be accessed
+from anywhere inside our code base
+
 

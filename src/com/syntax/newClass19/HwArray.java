@@ -8,11 +8,20 @@ public class HwArray {
     accessible by the creating an instance of the class.
      */
 
-    double sumArray(double [] array){
+    /*double sumArray(double [] array){
         double sum=0;
         for (double v : array) {//enhanced by intellij
             sum = sum + v;
         }
         return sum;
+    }*/
+    double sumArray(double[] array){// before intellj enhanced the for loop
+        double sum=0;
+        for (int i=0; i<array.length-1; i++){
+            sum=sum+array[i];
+        }
+        return sum;
     }
+
+
 }

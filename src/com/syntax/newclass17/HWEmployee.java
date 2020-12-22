@@ -1,7 +1,5 @@
 package com.syntax.newclass17;
 
-import java.security.spec.RSAOtherPrimeInfo;
-
 public class HWEmployee {
 
     /*
@@ -13,7 +11,7 @@ Print out the eID , salary and  CEO for each of the objects
      */
     String empID;
     double salary;
-    static String CEO="Sumair";// static because it is same for all emploees
+    static String CEO="Sumair";// static because it is same for all employees
 
     public static void main(String[] args) {
         HWEmployee employee1=new HWEmployee();

@@ -1,0 +1,85 @@
+What is Overriding?
+Declaring a method in sub class which is already present in parent class is called overriding.
+The purpose of Method Overriding is, the child class can have its own specific implementation.
+
+How can it be achieved?
+we need to follow the rules of overriding method
+we must have same signature as the overridden one.
+ (method name and data types of the arguments and their  sequence should exactly match.)
+The return type should be the same
+The access level cannot be more restrictive than the overridden method’s access level.
+we can increase the visibility but not decrease
+
+  What can we override?
+ Only inherited methods can be overridden.
+ Because overriding happens when a subclass re-implements a method which is inherited from a superclass
+
+And what we cannot override?
+If a method cannot be inherited then it cannot be overridden.
+Constructors do not participate in inheritance,therefore, they cannot be overridden.
+private methods cannot be overridden.Since private methods are not visible outside the class,not inherited
+Final methods cannot be overridden.final keyword is for that purpose not to modify
+A method declared static cannot be overridden.
+We can declare static methods with the same signature in the subclass,
+but it is not considered overriding this is known as method hiding or re declaring
+Main method cannot be overridden.because a static method cannot be overridden.
+---------------------------------------------------------------------------------------------------
+Can we override static method in Java?
+No, you cannot override static method in Java because they are resolved and bonded during compile time.
+Since overriding is a run-time activity and if a method call is already resolved at compile time
+then it will not take place and that's why its not possible to override static method in Java.
+But, you can define another static method of same signature in sub class,
+this is known as method hiding. Actual method called will depends upon the type of class
+and not on type of object as its the case with overriding.
+
+8) Can you prevent overriding a method without using final modifier?
+Yes, there are some funky ways to prevent method overriding in Java.
+Though final modifier is only for that purpose you can use private keyword to prevent method overriding.
+How? If you remember correctly, in order to override a method, the class must be extensible.
+If you make the constructor of parent class private then its not possible to extend that class
+because its constructor will not be accessible in sub class,
+which is automatically invoked by sub class constructor, hence its not possible to override any method
+from that class. This technique is used in Singleton design pattern, where constructor is purposefully
+made private and a static getInstance() method is provided to access singleton instance.
+
+ Can we override a private method in Java?
+No, you cannot override private method in Java. Since private methods are not visible outside the class,
+ they are not available in sub-class hence they cannot be overridden.
+
+ By the way, how about overriding a private method inside an Inner class? Is it possible?
+Can we change argument list of overridden method?
+No, you cannot change the argument list of overridden method in Java.
+An overriding method must have same signature as original method.
+Only return type can be changed that to only to sub type of return type of original method.
+
+12) Can we change return type of method in subclass while overriding?
+No, you cannot change the return type of method during overriding.
+It would be violation of rules of overriding.
+
+How do you call super class version of an overriding method in sub class?
+You can call it using super keyword. For example if you have a method calculate()
+in both parent and child class then from child class you can invoke parent class method
+calculate() as super.calculate(). It's very similar to calling super class constructor from sub class
+
+Can we override a non-static method as static in Java?
+No, its not possible to define a non-static method of same name as static method in parent class,
+its compile time error in Java.
+
+Can we override constructor in Java?
+No, you cannot override constructor in Java because they are not inherited.
+
+Can we override final method in Java?
+No, you cannot override final method in Java. Trying to override final method in subclass will result
+in compile time error. Actually making a method final is signal to all developer that
+this method is not for inheritance and it should be use in its present form.
+ You generally make a method final due to security reasons
+ Abstract methods must be overridden by the first concrete (non-abstract) subclass.
+---------------------------------------
+
+
+
+
+
+
+
+

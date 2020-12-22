@@ -1,0 +1,27 @@
+Abstract Classes and Methods
+Data abstraction is the process of hiding certain details and showing only essential information to the user.
+Abstraction can be achieved with either abstract classes or interfaces
+The abstract keyword is a non-access modifier, used for classes and methods:
+Abstract class: is a restricted class that cannot be used to create objects
+(to access it, it must be inherited from another class).
+Abstract method: can only be used in an abstract class, and it does not have a body.
+The body is provided by the subclass (inherited from).
+
+Why And When To Use Abstract Classes and Methods?
+To achieve security - hide certain details and only show the important details of an object.
+Note: Abstraction can also be achieved with Interfaces
+
+Abstract classes cannot be instantiated, but they can be subclassed.
+An abstract method is a method that is declared without an implementation
+(without braces, and followed by a semicolon), like this:
+
+abstract void moveTo(double deltaX, double deltaY);
+
+If a class includes abstract methods, then the class itself must be declared abstract.
+When an abstract class is subclassed, the subclass usually provides implementations
+for all of the abstract methods in its parent class. However, if it does not,
+then the subclass must also be declared abstract.
+
+Note: Methods in an interface that are not declared as default or static are implicitly abstract,
+so the abstract modifier is not used with interface methods.
+(It can be used, but it is unnecessary.)

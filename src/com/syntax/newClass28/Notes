@@ -1,0 +1,20 @@
+Abstraction:
+is a process of showing the functionality
+to the user and hiding the implementation details.
+we can achieve the abstraction in java in two ways
+1) Abstract classes and other one is Interfaces
+Abstract classes can have abstract methods we can implement those abstract methods in
+our child classes.
+Rules to follow:
+We can have as many abstract methods as we want in a class.
+1) To declare an abstract we can use abstract keyword.
+2)we can't have abstract methods as private because they will never be
+inherited and we will not able to provide implementation for those
+3) same way we can't declare our methods as final because final methods can never be overridden
+abstract class ParentClass{
+
+public abstract method1();
+}
+Interfaces
+always have fields as public static and final. which means we cannot change them we can
+only access them.

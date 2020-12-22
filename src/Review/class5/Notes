@@ -1,0 +1,24 @@
+String is a built-in class in Java that can be used to manipulate all of the
+characters that present on the keyboard
+
+String are immutable everytime we declare a variable of type string
+all of the memory cells in the StringPool Area will searched and if a memory cell
+with same content is available the location of that cell will be assigned to our
+local variable  and no new cell will be created in the memory this can be very useful
+if we have to store same data again and again in the memory.we can save space!
+
+if we are declaring a box of type StringBuilder no memory location will be searched
+and a new box of type StringBuilder will be created in the heap and the address of that
+box will be stored in our local variable everytime if we have to store different different
+data in the memory we should be using String Builder class
+
+Difference between StringBuilder and StringBuffer
+StringBuilder is not thread safe and we can use it if we are not using multithreading
+in our java code because there will no conflicts but if we have
+written multithreaded code we should always use StringBuffer class why because it is thread safe
+and there will be no conflicts
+
+why we get NUllPointerException?
+Everytime we we try to call a method on a null our java can not find the
+specified method from
+the heap and we get this exception

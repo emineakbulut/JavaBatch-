@@ -1,0 +1,131 @@
+The ArrayList class implements the List interface.
+It uses a dynamic array to store the duplicate element of different data types.
+The ArrayList class maintains the insertion order and is non-synchronized.
+The elements stored in the ArrayList class can be randomly accessed.
+
+Arraylist class implements List interface and it is based on an Array data structure.
+It is widely used because of the functionality and flexibility it offers.
+Most of the developers choose Arraylist over Array as it’s a very good alternative
+of traditional java arrays. ArrayList is a resizable-array implementation of the List interface.
+It implements all optional list operations, and permits all elements, including null.
+
+Why ArrayList is better than Array?
+The limitation with array is that it has a fixed length so if it is full you cannot add any more
+elements to it, likewise if there are number of elements gets removed from it the memory
+consumption would be the same as it doesn’t shrink.
+On the other ArrayList can dynamically grow and shrink after addition and removal of elements
+ Apart from these benefits ArrayList class enables us to use predefined methods of it which makes our task easy.
+ How to create an ArrayList?
+ We can create an ArrayList by writing a simple statement like this:
+
+This statement creates an ArrayList with the name alist with type “String”. The type determines which type of elements the list will have. Since this list is of “String” type, the elements that are going to be added to this list will be of type “String”.
+
+ ArrayList<String> alist=new ArrayList<String>();
+ Similarly we can create ArrayList that accepts int elements.
+
+ ArrayList<Integer> list=new ArrayList<Integer>();
+
+ How to add elements to an ArrayList?
+ We add elements to an ArrayList by using add() method, this method has couple of variations, which we can use based on the requirement. For example: If we want to add the element at the end of the List then simply do it like this:
+
+ alist.add("Steve"); //This will add "Steve" at the end of List
+ To add the element at the specified location in ArrayList, we can specify the index in the add method like this:
+
+ alist.add(3, "Steve"); //This will add "Steve" at the fourth position
+
+ import java.util.*;
+ class JavaExample{
+    public static void main(String args[]){
+       ArrayList<String> alist=new ArrayList<String>();
+       alist.add("Steve");
+       alist.add("Tim");
+       alist.add("Lucy");
+       alist.add("Pat");
+       alist.add("Angela");
+       alist.add("Tom");
+
+       //displaying elements
+       System.out.println(alist);
+
+       //Adding "Steve" at the fourth position
+       alist.add(3, "Steve");
+
+       //displaying elements
+       System.out.println(alist);
+    }
+ }
+ Output:
+
+ [Steve, Tim, Lucy, Pat, Angela, Tom]
+ [Steve, Tim, Lucy, Steve, Pat, Angela, Tom]
+ Note: Since the index starts with 0, index 3 would represent fourth position not 3.
+
+ Change an element in ArrayList
+ We can use the set method to change an element in ArrayList.
+ We provide the index and new element, this method then updates the element present
+ at the given index with the new given element. In the following example, we have given
+ the index as 0 and new element as “Lucy” in the set() method,
+ so the method updated the element present at the index 0 (which is the first element “Jim” in this example)
+ with the new String element “Lucy”, which we can see in the output.
+ import java.util.ArrayList;
+ public class JavaExample {
+    public static void main(String[] args) {
+       ArrayList<String> names = new ArrayList<String>();
+       names.add("Jim");
+       names.add("Jack");
+       names.add("Ajeet");
+       names.add("Chaitanya");
+       names.set(0, "Lucy");
+       System.out.println(names);
+    }
+ }
+ How to remove elements from ArrayList?
+ We use remove() method to remove elements from an ArrayList, Same as add() method, this method also has few variations.
+
+ Iterating ArrayList
+ In the above examples, we have displayed the ArrayList elements just by referring the ArrayList
+ instance, which is definitely not the right way to displays the elements.
+ The correct way of displaying the elements is by using an advanced for loop like this.
+ import java.util.*;
+ class JavaExample{
+   public static void main(String args[]){
+      ArrayList<String> alist=new ArrayList<String>();
+      alist.add("Gregor Clegane");
+      alist.add("Khal Drogo");
+      alist.add("Cersei Lannister");
+      alist.add("Sandor Clegane");
+      alist.add("Tyrion Lannister");
+
+      //iterating ArrayList
+      for(String str:alist)
+         System.out.println(str);
+      }
+ }
+ Output:
+
+ Gregor Clegane
+ Khal Drogo
+ Cersei Lannister
+ Sandor Clegane
+ Tyrion Lannister
+
+ ArrayList Size
+ We can use size() method of ArrayList to find the number of elements in an ArrayList.
+
+ import java.util.ArrayList;
+
+ public class JavaExample {
+    public static void main(String[] args) {
+       ArrayList<Integer> numbers = new ArrayList<Integer>();
+       numbers.add(1);
+       numbers.add(7);
+       numbers.add(5);
+       numbers.add(6);
+       System.out.println("Number of elements in ArrayList: "+numbers.size());
+    }
+ }
+ Sort ArrayList
+ We have a sort() method in the Collections class. This class is is a part of java.util package.
+ This method can be used to sort an ArrayList. In the following example we have sorted a list of
+ String type alphabetically, however this method works on numeric list (such as Integer type ArrayList)
+ as well.

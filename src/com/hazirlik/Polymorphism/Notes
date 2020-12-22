@@ -1,0 +1,43 @@
+What is Polymorphism?
+
+Polymorphism in Java occurs when there are one or more classes or objects related to each other by inheritance.
+In other words, it is the ability of an object to take many forms.Inheritance lets users inherit attributes and methods,
+and polymorphism uses these methods for performing different tasks. So, the goal is communication
+but the approach is different.
+For example, you have a smartphone for communication. The communication mode you choose could be anything.
+It can be a call, a text message, a picture message, mail, etc. So, the goal is common that is communication,
+but their approach is different. This is called Polymorphism.
+
+Polymorphism in Java is a concept by which we can perform a single action in different ways.
+So polymorphism means many forms.
+Any Java object that can pass more than one IS-A(This trail is about unit testing in Java.
+Unit testing means testing the smaller units of your application, like classes and methods.
+Unit tests are typically automated, meaning once they are implemented, you can run them again and again.
+That is, your computer can run them again and again, while you do something else.) test is considered to be polymorphic.
+In Java, all Java objects are polymorphic since any object will pass the IS-A test for
+their own type and for the class Object.
+
+It is important to know that the only possible way to access an object is through a reference variable.
+A reference variable can be of only one type. Once declared, the type of a reference variable cannot be changed.
+The reference variable can be reassigned to other objects provided that it is not declared final.
+The type of the reference variable would determine the methods that it can invoke on the object.
+A reference variable can refer to any object of its declared type or any subtype of its declared type.
+A reference variable can be declared as a class or interface type.
+
+There are two types of polymorphism in Java:
+compile-time polymorphism and runtime polymorphism.
+We can perform polymorphism in java by method overloading and method overriding.
+
+Compile Time Polymorphism
+It is also known as static polymorphism.
+Method Overloading--> When different functions in a class have the same name but different signature,
+it’s called method overloading. A method signature contains the name and method arguments.
+So, overloaded methods have different arguments. The arguments might differ in the numbers or the type of arguments.
+The method return type is not part of the signature.
+
+Runtime Polymorphism
+Method overriding-->The runtime polymorphism is achieved by method overriding.
+When the superclass method is overridden in the subclass, it’s called method overriding.
+In this case, the compiler is not able to determine whether the superclass or subclass method will get called.
+The method resolution happens at runtime based on the actual type of the object.
+That’s why it’s called runtime polymorphism. It’s also called Dynamic Method Dispatch.

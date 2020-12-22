@@ -10,8 +10,8 @@ public class Task4 {
         this.address = address;
     }
     void displayInfo() {
-        System.out.print(name+" ");
-        System.out.println(address);
+        System.out.print("name "+name);
+        System.out.println("Address "+address);
     }
     public static void main(String[] args) {
         Task4 studentA=new Task4("john","123 Fairfax");

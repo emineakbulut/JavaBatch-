@@ -1,0 +1,28 @@
+Final keyword:
+final is keyword in java that can be used with class, field and methods.
+if we have declared a class as final class then no other class can inherit our
+class.
+
+final public class DemoClass{
+
+int number;
+democlass(int number){
+this.number=number
+}
+void printNumber(){
+sout number
+}
+}
+
+public class ChildClass extends DemoClass{ CE //cannot inherit from a final class
+
+}
+
+Benefits of final classes:
+1) Privacy
+2) A<-B<-C<-D..... if we have a very long chain of classes which have a inheritance
+relations and if we want to restrict this chain we can use the final keyword why
+because we may waste a lot of memory if we don not use these classes properly
+
+
+

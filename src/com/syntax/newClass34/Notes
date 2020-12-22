@@ -1,0 +1,17 @@
+Why we need files
+1) We can store the data permanently on our computers
+2) It helps us separating the sensitive info from the code
+3) Every time we have to make a change in the data we don't
+need to recompile and redeploy our code
+
+FileHandling in Java
+File is a way of storing the data permanent on our hard drives.
+Files and programs are separate entities we can use below classes to connect
+the files with our java Program. We can have different files on our computer
+like excel, word, Text etc. To manipulate these files we have separate classes inside java
+as each file has its own structure.
+We use below files to manipulate property files.
+
+FileInputStream:
+This class creates a connection between our code and the file.
+To manipulate Property files we have a special class in java called Properties.
