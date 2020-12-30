@@ -8,7 +8,7 @@ public class ExceptionDemo2 {
         try{
             System.out.println(arr[3]);
         }catch (ArrayIndexOutOfBoundsException var){
-            System.out.println("Please specify correct index"+var);
+            System.out.println("Please specify correct index "+var);
         }
 
         System.out.println("May execute or may not execute");
